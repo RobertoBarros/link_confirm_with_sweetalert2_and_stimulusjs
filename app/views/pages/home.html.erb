@@ -1,0 +1,19 @@
+<h1>Pages#home</h1>
+<p>Find me in app/views/pages/home.html.erb</p>
+
+<%= link_to 'Visitar um site externo', 'https://google.com',
+    data: { controller: 'sweetalert',
+            action: 'click->sweetalert#showAlert',
+            sweetalert_title_value: 'Você tem certeza?',
+            sweetalert_confirm_text_value: 'Sim',
+            sweetalert_cancel_text_value: 'Cancelar'} %>
+
+
+
+<%= link_to 'Visitar um site externo', 'https://google.com',
+    data: { controller: 'sweetalert',
+            action: 'click->sweetalert#showAlert',
+            sweetalert_title_value: 'Isso vai apaguar tudo. OK?',
+            sweetalert_confirm_text_value: 'Tudo bem',
+            sweetalert_cancel_text_value: 'Abortar'} %>
+
